@@ -1,0 +1,38 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px auto;
+  font-family: Outfit;
+  background-color: hsl(212, 45%, 89%);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  border-radius: 25px;
+}
+
+h2 {
+  color: hsl(218, 44%, 22%);
+}
+
+p {
+  font-size: .9375rem;
+  color: hsl(220, 15%, 55%);
+}
+
+.fundo {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-radius: 25px;
+  max-width: 25ch;
+}
+
+@media (max-width: 700px) {
+  body {
+    padding: 0px 60px;
+  }
+}
